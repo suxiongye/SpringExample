@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
  */
-package com.su.redisTest;
+package com.su.redistest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @author su
- * @Package com.su.redisTest
+ * @Package com.su.redistest
  * @Description: 定义接收类
  * @date 2018/1/22 上午9:57
  */

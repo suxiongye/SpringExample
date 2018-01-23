@@ -1,11 +1,11 @@
 /*
  * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
  */
-package com.su.restfulTest;
+package com.su.restfultest;
 
 /**
  * @author su
- * @Package com.su.restfulTest
+ * @Package com.su.restfultest
  * @Description: 作为返回的json对象的POJO
  * @date 2018/1/22 上午11:24
  */

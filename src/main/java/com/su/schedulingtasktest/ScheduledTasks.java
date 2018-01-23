@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
  */
-package com.su.schedulingTaskTest;
+package com.su.schedulingtasktest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,7 @@ import java.util.Date;
 
 /**
  * @author su
- * @Package com.su.schedulingTaskTest
+ * @Package com.su.schedulingtasktest
  * @Description: Spring 定时调度功能
  * @date 2018/1/22 上午11:46
  */
