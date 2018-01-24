@@ -42,13 +42,15 @@ public class Application {
     private static void bootRun() {
         SpringApplication.run(Application.class);
     }
+
     @Bean
     public RestTemplate restTemplate(RestTemplateBuilder builder) {
         return builder.build();
     }
+
     @Bean
     public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
-        return arg->{
+        return arg -> {
             Quote quote = restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", Quote.class);
             LOGGER.info(quote.toString());
         };
