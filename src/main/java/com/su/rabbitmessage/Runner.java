@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author suxiongye
  * @Package com.su.rabbitmessage
- * @Description: TODO
+ * @Description: 发送消息
  * @date 2018/1/26 13:29
  */
 @Component
